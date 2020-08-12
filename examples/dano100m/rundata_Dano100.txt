@@ -1,0 +1,83 @@
+Rundata file -Test data                                                         
+10: frame				---------- INPUT DATA                                              
+input_Dano100_frd.txt                                                           
+11: VSS input data                                                              
+input_Dano100_vsd.txt                                                           
+12: overland/channel                                                            
+input_Dano100_ocd.txt                                                           
+13: evapotranspiration                                                          
+input_Dano100_etd.txt                                                           
+14: post-processing data definition (no longer used)                            
+ 
+15: snowmelt                                                                    
+                                                                                
+16: bank element data                                                           
+ 
+17: sediment yield input                                                        
+ 
+18: contaminant input                                                           
+ 
+19: hourly met. data			---------- MET. DATA                                     
+ 
+20: precipitation data                                                          
+rain.csv                                                                        
+21: potential evaporation data                                                  
+evap.csv                                                                        
+22: time counter file			---------- OUTPUT DATA                                  
+output_Dano100_tim.txt                                                          
+23: water flow print output                                                     
+output_Dano100_pri.txt                                                          
+24: sediment yield print                                                        
+ 
+25: contaminant print                                                           
+ 
+26: debug output                                                                
+ 
+27: main unformatted results file (no longer used                               
+ 
+28: hostart file			-------INITIAL CONDITIONS                                    
+ 
+29: VSS initial conditions                                                      
+ 
+30: time-varying vegetation (VED)-----TIME-SERIES DATA                          
+ 
+31: well extraction (WLD)                                                       
+ 
+32: lateral subsurface flow boundary condition (LFB)                            
+ 
+33: lateral subsurface head boundary condition (LHB)                            
+ 
+34: lateral subsurface head gradient boundary condition (LGB)                   
+ 
+35: column base flow boundary condition (BFB)                                   
+ 
+36: column base head boundary condition (BHB)                                   
+ 
+37: overland/channel flow boundary condition (OFB)                              
+ 
+38: overland/channel head boundary condition (OHB)                              
+ 
+39: contaminant time-series 1 (CMT)                                             
+ 
+40: contaminant time-series 2 (CMB)                                             
+ 
+41: discharge at the outlet --------ADDITONAL OUTPUT                            
+output_Dano100_discharge_sim_regulartimestep.txt                                
+42: vsi data for initial conditions                                             
+output_Dano100_vsi.txt                                                          
+43: mass balance data                                                           
+output_Dano100_mb.csv                                                           
+44: discharge at the outlet                                                     
+output_Dano100_discharge_sim_everytimestep.txt                                  
+45: not used                                                                    
+ 
+46: not used                                                                    
+ 
+47: not used                                                                    
+ 
+48: visualisation plan ------VISUALISATION OUTPUT                               
+input_Dano100_visualisation_plan.txt                                            
+49: check visulisation plan                                                     
+output_Dano100_check_vis_plan.txt                                               
+50: HDF output                                                                  
+output_Dano100_shegraph.h5                                                      

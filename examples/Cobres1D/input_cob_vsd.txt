@@ -1,0 +1,46 @@
+:VS01 simulation title
+VSS data set for Cobres catchment
+:VS02 logical flags: BFAST,BSOILP,BHELEV
+      F      T      F
+:VS03 integer variables NS,NCSZON,NCRBED,INITYP
+      3     35      0      1
+:VS04 real variables VSIPSD,VSZMIN,VSZMAX,VSWV,VSWL
+    2.0      0      0    1.0    1.0
+:VS05 physical property data (IS,IVSFLG,IVSNTB / KX,KY,KZ,THSAT,THRES,SS,N,ALF) 
+1      1     0       soil 1
+     0.01    0.01     0.01    0.370    0.075   1.0e-3     1.50    1.99E-02 
+2      1     0       soil 2
+     0.1    0.1     0.035    0.412    0.098   1.0e-3     1.50    1.44E-02 
+3      1     0       fractured rock
+   0.050  0.050   0.050     0.180    0.030   1.0e-3    2.40    1.00E-02 
+:VS06 soil zone cell sizes
+    0.1    0.1    0.1    0.1    0.1    0.1    0.1    0.1    0.1    0.1
+    0.2    0.2    0.2    0.2    0.2    0.2    0.2    0.2    0.2    0.2
+    1.0    1.0    1.0    1.0    1.0    1.0    1.0    1.0    1.0    1.0
+    2.0    2.0    2.0    2.0    2.0
+:VS08 no. of categories for layer definitions
+      2      0
+:VS08a category; no. of layers; soil/lith type; depth
+ 1      2
+        3      1 
+     6.00   0.50
+ 2      2
+        3      2 
+     6.00   0.50
+:VS08c distribution grid for aquifer zone category codes
+      3 000 
+      2 010
+      1 000  
+:VS10 user defined connectivities
+ 0
+:VS11 no. of categories for boundary conditions
+ 0    0    0    0    0    0    1    0
+:vs17 - grid of types of head boundary conditions
+      3 000 
+      2 070
+      1 000  
+:vs17 - grid categories of head boundary conditions
+      3 000 
+      2 010
+      1 000  
+

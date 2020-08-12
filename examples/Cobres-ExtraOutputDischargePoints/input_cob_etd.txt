@@ -1,0 +1,42 @@
+:ET1   PRINT CONTROL AND MET. DATA PARAMETERS
+      F      F      T                         
+:ET3   TIMESTEP FOR INPUT OF MET. DATA - MED file, PRD File, EPD file 
+    1.0    1.0   24.0                               
+:ET5   METHOD FOR READING MEASURED POT. EVAPOTRANSPIRATION
+      1 
+:ET7   PARAMETERS FOR VEGETATION 1 -----native forest
+      F    30.     0.     0.     0.     0.      3          
+      8   0.85   1.00 .00003    3.7     20   5.00     0. 
+:ET9   CONTROLS FOR TIME-VARYING PARAMETERS    
+      0      0      0      0                      
+:ET15  PSI/RCF/FET FUNCTION    
+ -1000.     0.    0.0
+  -150.     0.    0.0
+   -50.     0.   0.00                         
+   -30.     0.   0.01
+   -10.     0.   0.05
+   -3.3     0.   0.10
+    -1.     0.   0.30              
+    10.     0.   0.60
+ET17  DEPTH/RDF FUNCTION            
+  0.100   0.12
+  0.200   0.10
+  0.300   0.08
+  0.400   0.07
+  0.500   0.065
+  0.600   0.06
+  0.700   0.057
+  0.800   0.054
+  0.900   0.051
+  1.000   0.048
+  1.100   0.045
+  1.200   0.042
+  1.300   0.039
+  1.400   0.036
+  1.500   0.033
+  1.600   0.03
+  1.700   0.025
+  1.800   0.020
+  1.900   0.015
+  2.000   0.01
+    

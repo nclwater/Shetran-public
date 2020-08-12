@@ -1,0 +1,50 @@
+:ET1 - TEST CATCHMENT- ET COMPONENT DATA SET                                    
+      F      F      T
+:ET3 - DTMET : TIMESTEP FOR INPUT OF RAIN AND MET. DATA                         
+    1.0   0.25   24.0
+:ET5 - MEASPE (0 NOT MEASURED, 1 MEASURED)                                      
+      1
+:ET7 - VEGETATION TYPE-Grass                                                    
+      F     0.     0.     0.     0.     0.      3
+      7 0.9000 1.50001.40E-5 5.1000      5 6.0000      0      0
+:ET9 - CONTROLS FOR TIME VARYING PARAMETERS FOR VEGETATION TYPE                 
+      0      0      0      0
+:ET15 - PSI/RCF/FET FUNCTION FOR VEGETATION TYPE                                
+ -1000.     0.    0.0
+ -150.0     0.    0.0
+ -50.00     0. 0.0200
+ -20.00     0. 0.1500
+ -10.00     0. 0.5000
+ -1.000     0. 0.6000
+ -0.100     0. 0.6000
+:ET17 - DEPTH/RDF FOR VEGETATION TYPE                                           
+ 0.1000 0.4000
+ 0.2000 0.2500
+ 0.3000 0.2000
+ 0.4000 0.1000
+ 0.5000 0.0500
+:ET7 - VEGETATION TYPE-Coniferous Forest                                        
+      F     0.     0.     0.     0.     0.      3
+      7 0.9000 5.00001.90E-5 3.7000     10 6.0000      0      0
+:ET9 - CONTROLS FOR TIME VARYING PARAMETERS FOR VEGETATION TYPE                 
+      0      0      0      0
+:ET15 - PSI/RCF/FET FUNCTION FOR VEGETATION TYPE                                
+ -1000.     0.    0.0
+ -150.0     0.    0.0
+ -50.00     0. 0.1000
+ -20.00     0. 0.5000
+ -10.00     0. 0.9000
+ -1.000     0. 1.0000
+ -0.100     0. 1.0000
+:ET17 - DEPTH/RDF FOR VEGETATION TYPE                                           
+ 0.1000 0.1400
+ 0.2000 0.1200
+ 0.3000 0.1100
+ 0.4000 0.1000
+ 0.5000 0.0900
+ 0.6000 0.0800
+ 0.7000 0.0700
+ 0.8000 0.0600
+ 0.9000 0.0500
+ 1.0000 0.0300
+

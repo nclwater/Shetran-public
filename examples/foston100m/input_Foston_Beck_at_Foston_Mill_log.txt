@@ -1,0 +1,36 @@
+ XML filname = .\Foston_Beck_at_Foston_MillLibraryFile.xml
+ 
+ DEM filname = demAsciiFoston_Beck_at_Foston_Mill.txt
+ Minimum DEM filname = minDemAsciiFoston_Beck_at_Foston_Mill.txt
+ Catchment Mask filname = maskAsciiFoston_Beck_at_Foston_Mill.txt
+ Land use distribution filname = LandCoverAsciiFoston_Beck_at_Foston_Mill.txt
+ Soil category distribution filname = soilAsciiFoston_Beck_at_Foston_Mill.txt
+ No lake map specified
+ Precipitation Distribution Filename = RainAsciiFoston_Beck_at_Foston_Mill.txt
+ Potential Evaporation Distribution Filname = 
+ PEAsciiFoston_Beck_at_Foston_Mill.txt
+ Precpitation data = RainTimeSeriesFoston_Beck_at_Foston_Mill.csv
+ Potential Evaporation data = PETimeSeriesFoston_Beck_at_Foston_Mill.csv
+ Number of river chanel sinks =            2
+ Number of river chanel sinks =            1
+ Number of river chanel sinks =            0
+ 
+  Number of land element sinks =          214
+  Number of land element sinks =           95
+  Number of land element sinks =           79
+  Number of land element sinks =           64
+  Number of land element sinks =           47
+  Number of land element sinks =           38
+  Number of land element sinks =           29
+  Number of land element sinks =           17
+  Number of land element sinks =           14
+  Number of land element sinks =           17
+  Number of land element sinks =           13
+  Number of land element sinks =            9
+  Number of land element sinks =            6
+  Number of land element sinks =            4
+  Number of land element sinks =            2
+  Number of land element sinks =            2
+  Number of land element sinks =            2
+  Number of land element sinks =            1
+  Number of land element sinks =            0

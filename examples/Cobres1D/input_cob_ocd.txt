@@ -1,0 +1,12 @@
+ COBRES CHANNEL DATA
+      1      0      1      F
+ TIMESTEPS
+     1. 99999.
+ SMIN,   CDRS,  TDC,  TFC,   DET
+  1000.     1.     0. 99999.     0.
+ GRID ELEMENT BOUNDARIES
+      0      0      0
+ DEFAULT CHANNEL CROSS-SECTIONS
+      0
+  OC35 : CHANNEL DATA
+

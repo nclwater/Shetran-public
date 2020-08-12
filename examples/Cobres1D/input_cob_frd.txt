@@ -1,0 +1,53 @@
+COBRES BASIN - 2KM GRID
+ GRID SQUARES IN X,Y DIRECTIONS
+      3      3      0
+:FR4   START TIME OF SIMULATION 
+   1977     10      1      0      0
+:FR6   END TIME OF SIMULATION 
+   1977     12      1      0      0
+:FR7a  START TIME OF SEDIMENT SIMULATION 
+   1977     10      2      0      0
+:FR7b  START TIME OF CONTAMINANT SIMULATION 
+   1997     12     18      0      0
+ GRID SPACING IN X DIRECTION
+1000.0 1000.0 
+ GRID SPACING IN Y DIRECTION
+1000.0 1000.0 
+ PRINT CONTROL PARAMETERS
+   1.00      2      T      F      F      F 20000.
+ BASIC TIMESTEP DATA
+   1.00   0.05  9999.   1.00      T
+ PRINT CONTROL PARAMETERS
+      F      F      F      F      F      F      F      F      F      F
+ COMPONENT EXECUTION CONTROL PARAMETERS
+      F      F      F      F  
+ HOTSTART PARAMETERS
+      F      F   0.00   0.00
+ NO. OF MET./RAINFALL STATIONS, VEG. AND SOIL TYPES
+      1      1      1      1      1
+ RIVER LINING PARAMETERS
+      F   0.10   0.00      F
+ DEFAULT VALUES FOR MET,RAINFALL,VEG,SOIL TYPES
+      1      1      1      1
+ COMPUTATIONAL GRID DEFINITION
+      3 000
+      2 010
+      1 000
+   EAST TO WEST FLOW CODES : NS links
+      3 IIII
+      2 I..I
+      1 IIII
+  NORTH-TO-SOUTH FLOW CODES : ew links
+      4 III
+      3 I.I 
+      2 I.I
+      1 III
+ GROUND SURFACE ELEVATION
+      3
+   0.00   0.00   0.00  
+      2
+   0.00 100.00   0.00  
+      1
+   0.00   0.00   0.00  
+:FR52 - OUTPUT DISCHARGE TIMESTEP(HOURS)
+   1.00 

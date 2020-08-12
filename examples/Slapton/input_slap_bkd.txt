@@ -1,0 +1,48 @@
+:BK1 - SLAPTON WOOD CATCHMENT - BK COMPONENT DATA SET : 22/10/96 (BASIC)
+      T
+:BK3 - data type 1 : ZGRUND (see FR39)
+      2      0
+    0.3
+:BK3 - data type 2 : NMC (see FR33 and FR44)
+      2      0
+      1
+:BK3 - data type 3 : NRAINC (see FR33 and FR47)
+      1      0
+:BK3 - data type 4 : NVC (see FR33 and FR50)
+      1      0
+:BK3 - data type 5 : NLYRC (see FR33 and FR53)
+      2      0
+      3
+:BK3 - data type 6 : STRX (see OC2, OC3a, OC4 and OC16)
+      2      0
+    0.3
+:BK3 - data type 7 : STRY (see OC2, OC3a, OC4 and OC19)
+      2      0
+    0.3
+:BK3 - data type 8 : ICATUZ (see UZ23, UZ24, UZ27 and UZ29
+      1      0
+:BK3 - data type 9 : CATUZ (see UZ31 and UZ34)
+      1      0
+:BK3 - data type 10 : SD (see SM8 and SM11)
+      2      0
+    0.0
+:BK3 - data type 11 : RHOSAR (see SM8 and SM14)
+      2      0
+    0.0
+:BK3 - data type 12 : HSZ (see SZ4 and SZ29)
+      4      0
+     28   0.90     29   1.09     30   0.55     31   0.70     32   0.50
+     33   1.10     34   1.05     35   1.10     36   1.60     37   1.80
+     38   1.35     39   0.95     40   0.95     41   1.76     42   2.57
+     43   1.30     44   1.63     45   1.41     46   1.70     47   1.10
+     48   1.10     49   1.70     50   1.40     51   0.85     52   0.88
+     53   0.80     54   1.20     55   0.90     56   1.43     57   0.95
+     58   1.06     59   1.00     60   1.09     61   2.24     62   1.10
+     63   1.60     64   1.45     65   1.19     66   0.95     67   0.60
+     68   0.55     69   0.60     70   0.72     71   0.55     72   0.97
+     73   1.70     74   1.10     75   1.10     76   1.50     77   0.88
+     78   1.01     79   2.30     80   3.12     81   2.25
+:BK3 - data type 13 : HRF (see OC1a and OC7)
+      2      0
+    0.0
+
