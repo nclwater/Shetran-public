@@ -1,8 +1,0 @@
-element number face number
-number_of_points 4	
-84	2
-84      3
-101     4
-112     3
-
-
