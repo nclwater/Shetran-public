@@ -3,6 +3,8 @@ Shetran Hydrological Model Public version
 
 Contains latest executable release and example datasets but no source code.
 
+https://github.com/nclwater/Shetran-public/releases/latest
+
 Details can be seen here:
 https://research.ncl.ac.uk/shetran/
 
