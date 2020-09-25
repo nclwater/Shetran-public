@@ -21,6 +21,6 @@ Shetran-Model - standard Windows version
 
 Shetran-Model-EasySetup - prepares Shetran input files from XML file and map files and then runs the Standard Version. Also a Windows version
 
-Shetran - prepares Shetran input files from XML file and map files and then runs the Standard Version. Linux version
+Shetran-Model-Linux - prepares Shetran input files from XML file and map files and then runs the Standard Version. Linux version
 
 
