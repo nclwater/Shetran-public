@@ -15,12 +15,17 @@ Download the zip file from the latest release and then extract and look at the r
 ## Shetran Results Viewer
 https://github.com/nclwater/shetran-results-viewer
 
-There are three versions.
+
+## In this release there are 7 versions.
 
 Shetran-Model - standard Windows version
 
 Shetran-Model-EasySetup - prepares Shetran input files from XML file and map files and then runs the Standard Version. Also a Windows version
+Shetran-Model-EasySetup-Snow - prepares Shetran input files from XML file and map files and then runs the Standard Version includes Snow component. Also a Windows version
+Shetran-Model-EasySetup-Sediment - prepares Shetran input files from XML file and map files and then runs the Standard Version includes sediment Component. Also a Windows version
 
-Shetran-Model-Linux - prepares Shetran input files from XML file and map files and then runs the Standard Version. Linux version
+Shetran-Model-Linux-EasySetup - prepares Shetran input files from XML file and map files and then runs the Standard Version. Linux version
+Shetran-Model-Linux-EasySetup-Snow - prepares Shetran input files from XML file and map files and then runs the Standard Version includes Snow component. Linux version
+Shetran-Model-Linux-EasySetup-Sediment - prepares Shetran input files from XML file and map files and then runs the Standard Version includes sediment Component. Linux version
 
 
