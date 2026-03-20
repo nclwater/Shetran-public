@@ -1,0 +1,6 @@
+1013  E  OCPLF  980127
+	Channel data are required for link elements from 1 to NLF
+	in order.  The program has encountered an element number
+	other than that expected.
+	=> Check entries :OC35 in the OCD file.
+	(Note: earlier versions accepted channel data in any order.)

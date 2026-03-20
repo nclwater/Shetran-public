@@ -1,0 +1,8 @@
+1061  F  INBK  980730
+	This version does not support the option to assign bank element
+	data by reading pairs of (data_class,value) from the BKD file.
+	NB: The implementation in earlier versions was incorrect:
+	    bank elements were selected from the list 1,2,...,n (where
+	    n is the number of elements in the class) instead of from
+	    the list itself ICLIST(i,class), i=1,2,...,n.
+

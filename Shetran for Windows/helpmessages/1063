@@ -1,0 +1,4 @@
+1063  There is no data in the prd file. 
+
+This is probably because the location specified in the rundata file is different from the actual location. 
+Shetran will have created a prd with nothing in it where it was expecting the file.

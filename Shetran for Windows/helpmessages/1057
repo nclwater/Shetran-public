@@ -1,0 +1,4 @@
+1057  E  OCCHK1  980203
+	The indicated index array does not contain fully legal values.
+	=> Check that the program was compiled correctly.
+	=> Check the source code of Frame module FR.

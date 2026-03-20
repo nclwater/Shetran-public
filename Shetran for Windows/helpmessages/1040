@@ -1,0 +1,5 @@
+1040  F  VSIN (lines 45 or 215)  
+	N errors have occurred in VSS data reading or initialisation
+
+Check the PRI file to find which errors have occurred.  CORRECT THE INPUT
+DATA FILES.

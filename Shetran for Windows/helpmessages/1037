@@ -1,0 +1,13 @@
+1037  W  VSCONC (lines 512 or 534)  
+	Not possible to connect all cells for face N layer M.
+
+During the automatic setting up of the cell connectivities, two adjacent
+connected layers (or sequences of layers) have been found where the number
+of cells in one layer (or sequence of layers) is more than twice the number  
+in the adjacent layer (or sequence of layers).  Since each cell can be connected
+to at most two adjacent cells, this is not allowed.  It is corrected 
+automatically by increasing the number of cells in the layer(s) with the
+lesser number to at least half of the number of cells in the adjacent 
+layer(s).  This can be avoided, if required, by ensuring that the difference
+in thickness of any layer between any two adjacent columns is not too great.
+NO ACTION IS NECESSARY.

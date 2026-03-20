@@ -1,0 +1,4 @@
+1022  E  OCBC  980115
+	The category number for polynomial function boundaries
+	must lie between 0 and NOCPB.
+	=> Check entries :OC20 and :OC26 in the OCD file.

@@ -1,0 +1,17 @@
+<?xml version=1.0?><ShetranInput>
+<!--All tags are optional apart from those marked compulsory in the text after the end tag-->
+<CatchmentName>Aire_at_Kildwick_Bridge</CatchmentName><!--Compulsory--><!--This is used in the the file names produced by this code-->
+
+<!--Map Files-->
+<MaskFileName>Map_Mask_Aire_at_Kildwick_Bridge.asc</MaskFileName> <!--Compulsory--> <!--The NODATA_value is used for any cells outside the catchment. All other values are assumed to be within the catchment. -->
+<DEMMeanFileName>Map_Dem_Aire_at_Kildwick_Bridge.asc</DEMMeanFileName> <!--Compulsory--> <!--This is used to caculate the elevations of the grid squares. -->
+
+<!--Start and End Dates-->
+<StartYear>1980</StartYear><!--Compulsory-->
+<StartMonth>1</StartMonth><!--Compulsory-->
+<StartDay>1</StartDay><!--Compulsory-->
+<EndYear>1981</EndYear><!--Compulsory-->
+<EndMonth>1</EndMonth><!--Compulsory-->
+<EndDay>1</EndDay><!--Compulsory-->
+
+</ShetranInput>

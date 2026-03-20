@@ -1,0 +1,4 @@
+1019  E  OCPLF  980128
+	An error or end-of-file condition has been encoutered while
+	attempting to read channel input data.
+	=> Check entries :OC35 in the OCD file.

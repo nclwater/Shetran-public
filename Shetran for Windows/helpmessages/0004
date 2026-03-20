@@ -1,0 +1,5 @@
+0004  F  ALREAD  20.09.94
+	The program needs data input from a unit which is not presently
+	connected to a file.
+	=> Check that the name of the input data file has been
+	   correctly specified.

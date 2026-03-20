@@ -1,0 +1,4 @@
+1021  E  OCBC  980129
+	The category number for flux boundaries
+	must lie between 0 and NOCFB.
+	=> Check entries :OC20 and :OC24 in the OCD file.

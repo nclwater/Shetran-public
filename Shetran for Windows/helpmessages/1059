@@ -1,0 +1,5 @@
+1059  E  OCBC  980206
+	An element has been assigned an OC boundary condition more than once.
+	Any element may have at most one associated boundary condition.
+	=> Check entries :OC22, :OC24 and :OC26 in the OCD file.
+	=> Check the flow codes (entries :FR35a and :FR35c) in the FRD file.

@@ -1,0 +1,4 @@
+1001  E  OCCHK0  980130
+	The value of an array-size parameter is too small.
+	=> Increase the value of the indicated parameter
+	   in include-file AL.P, then re-make the program.

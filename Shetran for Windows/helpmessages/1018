@@ -1,0 +1,4 @@
+1018  F  OCSIM  980106
+	The OC solver has encoutered a row for which the matrix C.E+B
+	cannot be inverted (because it is singular): the solution
+	therefore cannot proceed.

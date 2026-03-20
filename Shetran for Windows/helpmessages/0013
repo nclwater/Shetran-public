@@ -1,0 +1,4 @@
+0013  W  ALTRAP  20.09.94
+	Traps could not be set for floating-point exceptions.
+	=> Refer to documentation for the operating system and/or compiler.
+	   Meanwhile beware of NaN, infinity, etc in the output data.

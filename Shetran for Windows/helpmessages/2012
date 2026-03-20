@@ -1,0 +1,4 @@
+2012  E  SYERR2  19.09.94
+	The number of SY sub-timesteps per water-flow timestep must be
+	not less than 1.
+	=> Check entry :SY11 in the SYD file.

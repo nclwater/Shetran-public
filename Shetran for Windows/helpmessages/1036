@@ -1,0 +1,11 @@
+1036  E  VSCOLM (line 145)  
+	Maximum iterations in VSS column solver
+
+The VSS solvers may occasionally not converge within the alloted number
+of iterations for extreme boundary conditions or source/sink terms (eg. if
+unusually high values are given for well abstraction).  Normally, however,
+the solution will have nearly converged, and the simulation can proceed. 
+CHECK THE METEOROLOGICAL, BOUNDARY CONDITION, AND SOURCE/SINK TERM DATA TO
+ENSURE THAT EXTREME VALUES HAVE NOT BEEN ENTERED ERRONEOUSLY.
+
+

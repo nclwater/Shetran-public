@@ -1,0 +1,6 @@
+0021  E  INRES  980714
+	An invalid data class has been detected as part of the output data
+	set definitions.
+	=> Valid data class numbers (specified as negative numbers in the
+	   PPD file - entry :PP23) are between 1 and 12 (without banks) or
+	   1 and 13 (with banks).
