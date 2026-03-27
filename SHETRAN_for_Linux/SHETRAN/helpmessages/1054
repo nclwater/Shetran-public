@@ -1,0 +1,6 @@
+1054  E  OCPLF  980129
+	The number of default cross-section categories must lie between 0
+	and NOCTAB, where NOCTAB is an array-size parameter defined in
+	include-file AL.P.
+	=> Check entry :OC30 in the OCD file.
+	=> Increase the value of NOCTAB if necessary.

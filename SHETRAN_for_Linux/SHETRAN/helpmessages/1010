@@ -1,0 +1,3 @@
+1010  E  OCPLF  980127
+	The Strickler coefficients for channels must be strictly positive.
+	=> Check entries :OC35 in the OCD file.

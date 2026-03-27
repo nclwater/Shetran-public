@@ -1,0 +1,4 @@
+2015  E  SYERR2  19.09.94
+	The number of size-groups designated as "fine" must not exceed 1;
+	and there must always be at least 1 "non-fine" size-group.
+	=> Check entry :SY11 in the SYD file.

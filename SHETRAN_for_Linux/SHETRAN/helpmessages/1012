@@ -1,0 +1,8 @@
+1012  E  OCPLF  980127
+	The cross-section index IDEFX for a channel link must be either:
+	between -NDEFCT and -1, where NDEFCT is the number of default
+	cross-section categories (entry :OC30 in the OCD file); or
+	between 2 and NOCTAB, where NOCTAB is the array-size parameter
+	defined in the include-file AL.P.
+	=> Check entries :OC35 in the OCD file.
+	=> Increase the value of NOCTAB if necessary.

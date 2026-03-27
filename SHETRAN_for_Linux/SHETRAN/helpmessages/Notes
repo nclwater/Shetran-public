@@ -1,0 +1,33 @@
+			SHETRAN Error Codes
+			___________________
+
+
+    (i)	Error code numbers take the form 1000*m+n, where 0<=m<=3 and
+	0<=n<=100.  In general m is the module identifier:
+
+		0  Library (AL);
+		1  Water (WAT) or Frame (FR);
+		2  Sediment (SY);
+		3  Contaminant (CM).
+
+	Error code 0000 however is a special case associated with
+	module FR.  The error code number is the second argument to
+	subroutine ERROR.
+
+   (ii)	Error types N, F, E and W correspond to the numeric value of
+	the first argument to subroutine ERROR as follows:
+
+		0  None: no error: just print a message and, if the
+		   error code number is zero, a summary of all errors
+		   to date;
+
+		1  Fatal: program execution cannot continue;
+
+		2  Error: an inadmissible condition has been detected,
+		   but immediate termination is not required;
+
+		3  Warning: an undesirable condition has been detected:
+		   may be used to inform the user of corrective action
+		   taken by the program.
+
+  

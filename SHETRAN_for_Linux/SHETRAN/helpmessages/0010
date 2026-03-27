@@ -1,0 +1,6 @@
+0010  F  ALREAD  20.09.94
+	While attempting to read a grid of integers from an input data
+	file one of the following has been detected: a read error or
+	end-of-file condition, or an incorrect row number.
+	=> Check that the indicated data entry is present and has the
+	   correct format.

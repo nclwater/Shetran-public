@@ -1,0 +1,4 @@
+1050  E  OCBC  980121
+	An array is too small for the given number of boundary conditions.
+	=> Check the BC data in the OCD file and, if necessary, increase
+	   the value of NOCTAB in the include-file AL.P.

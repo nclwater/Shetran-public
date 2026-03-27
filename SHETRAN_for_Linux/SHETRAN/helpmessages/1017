@@ -1,0 +1,5 @@
+1017  E  OCPLF  980129
+	The sequences of width and height values in a channel
+	cross-section table must be monotonic increasing;
+	strictly so in the case of height.
+	=> Check entries :OC37 in the OCD file.

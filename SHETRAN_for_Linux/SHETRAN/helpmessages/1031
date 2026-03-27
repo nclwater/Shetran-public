@@ -1,0 +1,5 @@
+1031  E  OCBC  980115
+	The coefficients for the polynomial function boundary categories
+	must be given for each category in the correct sequence, from 1
+	to NOCPB.
+	=> Check entries :OC20 and :OC28 in the OCD file.

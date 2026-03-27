@@ -1,0 +1,6 @@
+0009  F  ALALLF  20.09.94
+	In the specification of an element-based floating-point array
+	an integer category code has been detected which lies outside
+	the expected range.
+	=> Check that both the category codes and the stated number of
+	   categories are correctly specified in the input data file.

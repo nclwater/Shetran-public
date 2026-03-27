@@ -1,0 +1,6 @@
+2019  E  SYERR2  19.09.94
+	The sediment size-groups must be arranged in order of increasing
+	particle diameter (or, more precisely, the sequence of diameters
+	must be non-decreasing).
+	Furthermore, all diameters must be strictly positive.
+	=> Check entry :SY21 in the SYD file.

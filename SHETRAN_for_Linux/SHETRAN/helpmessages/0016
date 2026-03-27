@@ -1,0 +1,5 @@
+0016  F  ALREAD  970804
+	An error or end-of-file condition has occurred while attempting
+	to read mixed integer and floating-point data from an input file.
+	=> Check that the indicated data entry is present and has the
+	   correct format.

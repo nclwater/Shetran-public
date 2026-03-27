@@ -1,0 +1,9 @@
+1028  F  OCNODE  980212
+	The iterative procedure employed to calculate flow rates at a
+	branched node has failed, after 50 iterations, to meet the
+	minimal convergence criterion, viz: mass balance error not more
+	than 10% of total branch flows; and change of (notional) nodal
+	elevation not more than 50mm between iterations.
+	=> Attempt to reduce the error eg: by using finer temporal
+	   and/or spatial resolution; or by altering the convergence
+	   criteria in the source code for subroutine OCNODE.

@@ -1,0 +1,8 @@
+1035  F  VSFUNC  961220
+	The value of matric potential has exceeded the extreme dry value in the
+	internal tables of soil property functions.  THIS SHOULD NOT
+	NORMALLY HAPPEN.  There may be a number of causes.  A possible cause
+	may be that unusual values have been input to describe the soil
+	property functions
+	=> Check the soil property functions.
+	=> Check if any other errors have occurred during the simulation.

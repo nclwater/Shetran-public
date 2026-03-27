@@ -1,0 +1,118 @@
+<?xml version=1.0?><ShetranInput>
+<!--All tags are optional apart from those marked compulsory in the text after the end tag-->
+<CatchmentName>Aire_at_Kildwick_Bridge</CatchmentName><!--Compulsory--><!--This is used in the the file names produced by this code-->
+
+<!--Map Files-->
+<MaskFileName>Map_Mask_Aire_at_Kildwick_Bridge.asc</MaskFileName> <!--Compulsory--> <!--The NODATA_value is used for any cells outside the catchment. All other values are assumed to be within the catchment. -->
+<DEMMeanFileName>Map_Dem_Aire_at_Kildwick_Bridge.asc</DEMMeanFileName> <!--Compulsory--> <!--This is used to caculate the elevations of the grid squares. -->
+<DEMminFileName>Map_MinDem_Aire_at_Kildwick_Bridge.asc</DEMminFileName> <!--This is used to caculate the location and elevations of the river channels. If it is not avilable the mean dem.-->
+<VegMap>Map_LandCover_Aire_at_Kildwick_Bridge.asc</VegMap> <!--Vegetation/land-use map. The number of categories must correspond to those in Vegetation details.-->
+<SoilMap>Map_SoilCateogory_Aire_at_Kildwick_Bridge.asc</SoilMap> <!--Soil category map. The number of categories must correspond to those in Soil details.-->
+<LakeMap>Map_Lake_Aire_at_Kildwick_Bridge.asc</LakeMap> <!--Lake map. The value 1 is needed for a lake. River Strickler coefficients are reduced if there is a lake present.-->
+<PrecipMap>Map_RainDist_Aire_at_Kildwick_Bridge.asc</PrecipMap> <!--Spatial distibution of precipitation stations.-->
+<PeMap>Map_PETDist_Aire_at_Kildwick_Bridge.asc</PeMap> <!--Spatial distibution of PE stations-->
+
+<!--Component Execution. The default is that these are turned off-->
+<Sediment>True</Sediment>
+<Snow>True</Snow> <!--If Snow is executed there should be temperature data present. If Snow is not being executed then any temperature data is ignored.-->
+<Banks>True</Banks> <!--Banks are extra 10m wide cells added to the edge of the river channels.-->
+<Solute>True</Solute> <!--Banks are automatically included if Solute is true.-->
+
+<!--Start and End Dates-->
+<StartYear>1980</StartYear><!--Compulsory-->
+<StartMonth>1</StartMonth><!--Compulsory-->
+<StartDay>1</StartDay><!--Compulsory-->
+<StartHour>0</StartHour>
+<StartMinute>0</StartMinute>
+<EndYear>1981</EndYear><!--Compulsory-->
+<EndMonth>1</EndMonth><!--Compulsory-->
+<EndDay>1</EndDay><!--Compulsory-->
+<EndHour>20</EndHour>
+<EndMinute>0</EndMinute>
+
+<!--Land Cover/Vegetation Details-->
+<VegetationDetail>Number(corresponds with VegMap), Type, Canopy storage capacity (mm), Leaf area index, Maximum rooting depth(m), AE/PE at field capacity,Strickler overland flow coefficient</VegetationDetail> <!--VegetationDetail data can be in any order with missing numbers allowed.-->
+<VegetationDetail>1, Arable, 1.5, 1, 0.8, 0.6, 1.5</VegetationDetail>
+<VegetationDetail>2, BareGround, 0, 0, 0.1, 0.4, 2.0</VegetationDetail>
+<VegetationDetail>3, Grass, 1.5, 1, 1.0, 0.6, 1.0</VegetationDetail-->
+<VegetationDetail>4, DeciduousForest, 5, 1, 1.6, 1.0, 0.5</VegetationDetail>
+<VegetationDetail>5, EvergreenForest, 5, 1, 2.0, 1.0, 0.5</VegetationDetail>
+<VegetationDetail>6, Shrub, 1.5, 1, 1.0, 0.4, 1.0</VegetationDetail>
+<VegetationDetail>7, Urban, 0.3, 0.3, 0.5, 0.4, 5.0</VegetationDetail>
+
+<!--Subsurface Details-->
+<SoilDetail>Colummn Category(corresponds to SoilMap), Layer within category with 1 at the top, SoilProperty Number, Depth at base of layer (m)</SoilDetail> <!--The column categories and layers must be in numerical order, missing categories are allowed.-->
+<SoilDetail>1, 1, 1, 1.0 </SoilDetail>
+<SoilDetail>1, 2, 2, 6.0 </SoilDetail>
+<SoilDetail>2, 1, 1, 1.0 </SoilDetail>
+<SoilDetail>2, 2, 2, 5.0 </SoilDetail>
+<SoilDetail>3, 1, 3, 1.2 </SoilDetail>
+<SoilDetail>3, 2, 2, 6.2 </SoilDetail>
+<SoilDetail>4, 1, 1, 1.2 </SoilDetail>
+<SoilDetail>4, 2, 4, 6.2 </SoilDetail>
+<SoilDetail>5, 1, 1, 1.2 </SoilDetail>
+<SoilProperty>Number, Type, Saturated Water Content, Residual Water Content, Saturated Conductivity (m/day), vanGenuchten- alpha (cm-1), vanGenuchten-n, Specific Storage (m-1)</SoilProperty> <!--Soil property data can be in any order with missing numbers allowed.-->
+<SoilProperty>1,Coarse(18% clay and 65% sand), 0.403, 0.025, 60.000, 0.0383, 1.3774, 0.0005</SoilProperty>
+<SoilProperty>2,Low Productivity Aquifer Through Pores, 0.3, 0.2, 0.001, 0.01, 5, 0.0005</SoilProperty>
+<SoilProperty>3,MediumFine(35% clay and 15% sand), 0.430, 0.010, 2.272, 0.0083, 1.2539, 0.0005</SoilProperty>
+<SoilProperty>4,Highly Productive Aquifer Through Cracks, 0.3, 0.2, 41.5, 0.001, 6, 0.0005</SoilProperty>
+
+<!--Initial Conditions-->
+<InitialConditions>0</InitialConditions> <!--Initial water table depth below ground. Not used if SpatialVariableInitCond = True.-->
+<SpatialVariableInitCond>True</SpatialVariableInitCond> <!--This requires a SHETRAN simulation to have been previously run for the catchment with the file output_CATCHNAME_vsi.txt present and the soil depth and channel generation parameters unchanged from the previous simulation. If the file is not present then the InitialConditions value is used.-->
+
+
+<!--Meteorological Data. This is assumed to correspond to the start date if MeteorologicalDataIncludeDate is False-->
+<MeteorologicalDataIncludeDate>True</MeteorologicalDataIncludeDate> <!--Does the precipitation and potential evaporation data includes a first column ocntaining dates?-->
+<PrecipitationTimeSeriesData>TimeSeries_Rain_Aire_at_Kildwick_Bridge.csv</PrecipitationTimeSeriesData> <!--Precipitation time series. Units are in mm in the timestep length in PrecipitationTimeStep. In this case mm/day -->
+<PrecipitationTimeStep>24</PrecipitationTimeStep>  <!--Timestep in hours-->
+<EvaporationTimeSeriesData>TimeSeries_PET_Aire_at_Kildwick_Bridge.csv</EvaporationTimeSeriesData> <!--PE  time series. Units are in mm in the timestep length in EvaporationTimeStep. In this case mmm/day -->
+<EvaporationTimeStep>24</EvaporationTimeStep>  <!--Timestep in hours-->
+
+<!--Channel Generation and Flow-->
+<RiverGridSquaresAccumulated>2</RiverGridSquaresAccumulated> <!--Number of upstream grid squares needed to produce a river channel. A larger number will have fewer river channels.-->
+<DropFromGridToChannelDepth>2</DropFromGridToChannelDepth> <!--The standard and minimum value is 2 if there are numerical problems with error 1060 this can be increased.-->
+<MinimumDropBetweenChannels>0.5</MinimumDropBetweenChannels> <!--This depends on the grid size and how steep the catchment is. A value of 1 is a sensible starting point but more gently sloping catchments it can be reduced.-->
+<StricklerChannelCoeff>40</StricklerChannelCoeff> <!--Strickler Channel Coefficent. A value in the range of 20 to 50 is usually used.-->
+<StricklerLakeCoeff>8</StricklerLakeCoeff> <!--Strickler Lake Coefficent. A value in the range of 3 to 10 is usually used. Used when a channel coincides with a lake.-->
+<ChannelWidthFactor>10</ChannelWidthFactor> <!--A rectangular channel is assumed. Width is proportional to upstream contributing area times ChannelWidthFactor to the power of ChannelWidthPower. The default value is 15.-->
+<ChannelWidthPower>0.5</ChannelWidthPower> <!--A rectangular channel is assumed. Width is proportional to upstream contributing area times ChannelWidthFactor to the power of ChannelWidthPower. The default value is 0.5.-->
+<ChannelBankHeight>1.8</ChannelBankHeight> <!--The channel bank height is usually set to 1.5m to 2.0m.-->
+
+<!--Model Timesteps-->
+<MaxRainfallTimestep>0.2</MaxRainfallTimestep> <!--This is the maximum precipitation (mm) allowed in a timestep. The timestep is reduced if this value is exceeded. The default value is 0.5.-->
+<RegularTimestep>2.0</RegularTimestep> <!--This is the standard Shetran timestep it is autmatically reduced in rain. The standard value is 1 hour. The maximum allowed value is 2 hours.-->
+<IncreasingTimestep>0.15</IncreasingTimestep> <!--Speed of increase in timestep after rainfall back to the standard timestep. The standard value is 0.05. If if there are numerical problems with error 1060 it can be reduced to 0.01 but the simulation will take longer.-->
+<SimulatedDischargeTimestep>1.0</SimulatedDischargeTimestep> <!--This should be the same as the measured discharge and is the timestep used for the simulated discharge at the outlet. Usual either 1 hour or 24 hours (the default is 24 hours).-->
+
+<!--Snow Melt-->
+<SnowmeltDegreeDayFactor>0.0002</SnowmeltDegreeDayFactor> <!--Units  = mm s-1 C-1-->
+<MaxTempTimeSeriesData>TimeSeries_MaxTemp_Aire_at_Kildwick_Bridge.csv</MaxTempTimeSeriesData> <!--Maximum Temperature time series only needed for snow melt. Spatial distribution and timestep is the same as for PE. -->
+<MinTempTimeSeriesData>TimeSeries_MinTemp_Aire_at_Kildwick_Bridge.csv</MinTempTimeSeriesData> <!--Minimum Temperature time series only needed for snow melt. Spatial distribution and timestep is the same as for PE. Average temperature for snow melt caculated from the mean of min and max. -->
+
+<!--Output to HDF(H5) File Timesteps-->
+<StandardH5Output>12</StandardH5Output> <!--This is the standard timestep in hours for point output to the HDF (H5) file. This is for water table depth (phreatic surfacee), precipitation, river depths and flows etc. 24 hours (or daily) is the default value.-->
+<ThreeDimensionalH5Output>168</ThreeDimensionalH5Output> <!--This is the timestep in hours for 3D output to the HDF (H5) file. This is for soil moistures. 730 hours (or approx montly) is the default value. Beware that small values can make the file extreamly large.-->
+
+<!--Boundary Conditions.-->
+<BaseFlowBoundary>Colummn Category(corresponds to SoilMap), Flow through the base of the catchment (m3/s) </BaseFlowBoundary> <!--Missing categories are set to zero.-->
+<BaseFlowBoundary>1, 0.00000001</BaseFlowBoundary> <!-- Negative is flow out, positive is flow in. -->
+<BaseFlowBoundary>2, 0.00000001</BaseFlowBoundary> 
+<BaseFlowBoundary>3, 0.00000001</BaseFlowBoundary> 
+<BaseFlowBoundary>4, 0.00000005</BaseFlowBoundary> 
+
+<!--Extra Discharge Points Output-->
+<ExtraDischargePoints>105</ExtraDischargePoints> <!--These extra discharge points will be included in the output_CATCHNAME_discharge_sim_regulartimestep.csv file. If they are not on a channel number (see input_CATCHNAME_river_location.txt) they will be ignored. If the RiverGridSquaresAccumulated is changed the channel numbering is changed.-->
+<ExtraDischargePoints>85</ExtraDischargePoints>
+<ExtraDischargePoints>51</ExtraDischargePoints>
+<ExtraDischargePoints>31</ExtraDischargePoints>
+<ExtraDischargePoints>12</ExtraDischargePoints>
+<ExtraDischargePoints>38</ExtraDischargePoints>
+
+<!--Water Table Depth Output-->
+<WaterTableDepthPoint>368</WaterTableDepthPoint> <!-- These Water Table Depth points are written to the output_CATCHNAME_water_table_depth.csv file. If the value is larger than the number of elements (see input_CATCHNAME_element_number.asc) the value will be ignored.  If the RiverGridSquaresAccumulated is changed the channel numbering is changed.-->
+<WaterTableDepthPoint>382</WaterTableDepthPoint> 
+<WaterTableDepthPoint>395</WaterTableDepthPoint> 
+<WaterTableDepthPoint>409</WaterTableDepthPoint> 
+
+</ShetranInput>

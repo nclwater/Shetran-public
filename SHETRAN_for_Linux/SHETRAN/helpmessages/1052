@@ -1,0 +1,8 @@
+1052  F  VSPREP (line 106)  
+	End of lateral head gradient boundary condition file (LGB)
+
+The end time in a time-series boundary condition file has been exceeded.
+(Note that the last line in time-series files should exceed the end time
+of the simulation, as the final timestep of a simulation may go beyond
+the requested end time by one or two hours.)  EITHER ADD AN EXTRA LINE TO
+THE TIME-SERIES FILE, OR REDUCE THE LENGTH OF THE SIMULATION.

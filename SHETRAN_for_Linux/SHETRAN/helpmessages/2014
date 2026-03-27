@@ -1,0 +1,4 @@
+2014  E  SYERR2  19.09.94
+	The flag controlling the calculation of sediment velocity
+	must be either 0 or 1.
+	=> Check entry :SY11 in the SYD file.

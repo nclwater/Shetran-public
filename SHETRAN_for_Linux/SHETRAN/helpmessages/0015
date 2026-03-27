@@ -1,0 +1,6 @@
+0015  W  INRES  980129
+	An element has been assigned more than once to the same data class
+	in the PPD file (entries :PP3, :PP7, :PP9, :PP13, :PP15 and :PP17).
+	=> Duplication may be avoided by giving "0" (null assignment) for
+	   any element for which no assignment is required in a distribution
+	   grid.

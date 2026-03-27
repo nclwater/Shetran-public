@@ -1,0 +1,10 @@
+1048	F	VSCONC	950508
+	Attempts to renumber cells have failed.
+If error 1037 occurs due to the thickness of a layer being too different to
+the thickness of an adjacent connected layer, additional cells are inserted 
+into the layer with the smaller thickness.  This may change the cell 
+connectivity for the other faces of the element, so the code setting up cell 
+connectivities for all elements is rerun.  To avoid the possibility of 
+entering an infinite loop, a limit is set to the number of times this can
+occur.  This limit has been exceeded.  CHECK THE LAYER DEFINITION INPUT DATA
+AND USER-DEFINED LAYER CONNECTIVITIES.

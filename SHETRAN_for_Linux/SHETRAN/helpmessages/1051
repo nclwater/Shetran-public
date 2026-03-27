@@ -1,0 +1,6 @@
+1051  F  VSREAD (line 102)  
+	Soil type N not expected for soil property tables.
+
+Tabulated soil property data is required for all soil/lithology types with
+IVSFLG=2 or 4.  Either data are missing for a soil type, or an incorrect soil
+type has been found.  CORRECT THE INPUT DATA FILES.

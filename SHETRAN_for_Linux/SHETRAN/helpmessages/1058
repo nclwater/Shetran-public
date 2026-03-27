@@ -1,0 +1,7 @@
+1058  E  OCCHK1  980203
+	The boundary condition arrays LCODEX and LCODEY, passed to the OC from
+	the Frame module FR, are expected to have values between 7 and 11 only
+	at those positions where a link element is present.
+	One such value has been found at an unexpected position.
+	=> Check that the program has been compiled correctly.
+	=> Check the source code in module FR.

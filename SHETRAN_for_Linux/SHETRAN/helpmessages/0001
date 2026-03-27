@@ -1,0 +1,5 @@
+0001  F  ALALLF  20.09.94
+	In the specification of an element-based floating-point array
+	an invalid option or number of categories has been requested.
+	=> Check printed output files to determine which input data
+	   file has caused the problem.

@@ -1,0 +1,7 @@
+1008  E  OCCHK0  980203
+	The program requires the indicated file unit number to be connected to
+	an appropriate input or output data file.
+	=> Check that the name of the above file has been given correctly
+	   in the "rundata" file.
+	=> Check that the file exists and that you have the necessary access
+	   permission.

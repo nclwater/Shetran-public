@@ -1,0 +1,12 @@
+1024  W  OCFIX  980729
+	In adjusting the surface water depth of the given element (eg to
+	make it non-negative), some water has been introduced
+	artificially, as an "external source" (because it was not
+	possible to make corresponding adjustments in neighbouring
+	elements).  The precise amount added is the sum of two values,
+	each given as a depth (m): the first is introduced at the inter-
+	element boundaries (manifest in the flow rates); and the second
+	is introduced at the element itself (manifest in the water
+	depth).
+	NB: These adjustments will contribute to the global mass balance
+	    error for the catchment.

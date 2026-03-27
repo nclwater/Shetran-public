@@ -1,0 +1,4 @@
+1016  E  OCPLF  980127
+	The first given height in a channel cross-section table
+	must be zero.
+	=> Check entries :OC37 in the OCD file.

@@ -1,0 +1,5 @@
+1009  E  OCCHK0  980203
+	The program expects the indicated file unit number to be connected to
+	a file with format type "FORMATTED".
+	=> Ensure that the program has been compiled correctly.
+	=> Check the source code in the Frame module FR.

@@ -1,0 +1,4 @@
+1056  E  OCPLF  980128
+	The final value of width in a channel cross-section
+	table must be greater than zero.
+	=> Check entries :OC37 in the OCD file.

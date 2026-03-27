@@ -1,0 +1,5 @@
+0005  F  ALREAD  20.09.94
+	An error or end-of-file condition has occurred while attempting
+	read character data from an input data file.
+	=> Check that the program is using the correct input data file,
+	   and that the file contains all the requisite data entries.

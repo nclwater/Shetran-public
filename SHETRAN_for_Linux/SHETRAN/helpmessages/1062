@@ -1,0 +1,6 @@
+1062  E  ETCHK2  981103
+	The faclity RDL(veg).gt.0, allowing part of a bank-element's
+	root distribution function to be associated with the neighbouring 
+	channel element, is no longer supported.
+	=> Ensure that RDL is zero for all vegetation types in entries 
+	   :ET8 of the ETD file.

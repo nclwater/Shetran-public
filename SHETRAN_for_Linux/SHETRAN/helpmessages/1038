@@ -1,0 +1,6 @@
+1038  E  VSCONL (lines 117 and 133)  
+	Invalid user-defined VSS connectivity - duplicate found
+
+In the user-defined connectivity data, there is a layer which is connected 
+both to an adjacent layer, and with a null connection.  CORRECT THE INPUT
+DATA FILE.

@@ -1,0 +1,6 @@
+1055  E  OCPLF  980128
+	The number of width/elevation pairs for each default channel
+	cross-section must lie between 2 and NOCTAB, where NOCTAB is
+	an array-size parameter defined in include-file AL.P.
+	=> Check entry :OC32 in the OCD file and, if necessary,
+	   increase the value of NOCTAB.

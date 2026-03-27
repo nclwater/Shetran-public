@@ -1,0 +1,4 @@
+1002  E  OCCHK0  980130
+	The value of array-size parameter NXSCEE, defined
+	in include-file SPEC.OC, must be at least 2.
+	=> Increase the value, then re-make the program.

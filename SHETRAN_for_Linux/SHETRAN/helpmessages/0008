@@ -1,0 +1,7 @@
+0008  F  ALALLF  20.09.94
+	In the specification of an element-based floating-point array
+	the number of categories requested cannot be accomodated with
+	the workspace arrays at their present size.
+	=> Either reduce the number of categories in the input data file
+	   or increase the value of the indicated array-size parameter in
+	   include-file AL.P.

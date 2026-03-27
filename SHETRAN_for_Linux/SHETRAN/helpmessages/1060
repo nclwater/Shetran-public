@@ -1,0 +1,15 @@
+1060  F  OCFIX  980729
+	Subroutine OCFIX attempts to adjust the surface water depths and
+	flow rates returned by the linear solver, in order to impose
+	certain criteria (eg non-negative depth) required elsewhere in
+	the program.  The procedure involves repeated passes over the
+	whole catchment, with adjustments made as necessary, and is
+	complete when a pass is clean, ie when all criteria are met
+	without further adjustments.  To avoid excessive computation the
+	number of passes allowed is limited to NPASS (an integer
+	constant defined in OCFIX).  This number of passes has now been
+	reached, and the last pass was still not clean.
+	=> [crude] Increase the value of NPASS in subroutine OCFIX; or
+	=> [sophisticated] alter the floating-point values HCRIT, UHCRIT
+	   and DZMIN (constants defined in OCFIX) used in the evaluation
+	   of the criteria.

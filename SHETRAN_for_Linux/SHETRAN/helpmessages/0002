@@ -1,0 +1,6 @@
+0002  W  ALREAD  20.09.94
+	A header (or title) line has been encountered which does not
+	contain the expected key.
+	=> Check the input data file implicated by the key, making sure
+	   that all requisite data entries are present in the correct
+	   sequence.

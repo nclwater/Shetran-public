@@ -1,0 +1,5 @@
+0007  F  ALREAD  20.09.94
+	An error or end-of-file condition has occurred while attempting
+	read floating-point data from an input data file.
+	=> Check that the indicated data entry is present and has the
+	   correct format.

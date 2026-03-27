@@ -1,0 +1,4 @@
+1003  E  OCCHK0  980130
+	A Frame variable has an illegal value.
+	=> Ensure that the program has been compiled correctly.
+	=> Check the source code in module FR.
