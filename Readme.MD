@@ -10,7 +10,8 @@ https://research.ncl.ac.uk/shetran/
 
 SHETRAN source code is here:
 https://github.com/nclwater/Shetran
-SHETRAN Prepare source code is here:
+
+SHETRAN-Prepare source code is here:
 https://github.com/nclwater/shetran-prepare
 
 
