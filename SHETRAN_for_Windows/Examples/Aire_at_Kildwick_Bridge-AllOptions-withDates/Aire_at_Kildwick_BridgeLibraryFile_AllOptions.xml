@@ -1,16 +1,16 @@
 <?xml version=1.0?><ShetranInput>
 <!--All tags are optional apart from those marked compulsory in the text after the end tag-->
-<CatchmentName>Aire_at_Kildwick_Bridge</CatchmentName><!--Compulsory--><!--This is used in the the file names produced by this code-->
+<CatchmentName>Aire_at_Kildwick_Bridge</CatchmentName><!--Compulsory--><!--This is used in the file names produced by this code-->
 
 <!--Map Files-->
 <MaskFileName>Map_Mask_Aire_at_Kildwick_Bridge.asc</MaskFileName> <!--Compulsory--> <!--The NODATA_value is used for any cells outside the catchment. All other values are assumed to be within the catchment. -->
-<DEMMeanFileName>Map_Dem_Aire_at_Kildwick_Bridge.asc</DEMMeanFileName> <!--Compulsory--> <!--This is used to caculate the elevations of the grid squares. -->
-<DEMminFileName>Map_MinDem_Aire_at_Kildwick_Bridge.asc</DEMminFileName> <!--This is used to caculate the location and elevations of the river channels. If it is not avilable the mean dem.-->
+<DEMMeanFileName>Map_Dem_Aire_at_Kildwick_Bridge.asc</DEMMeanFileName> <!--Compulsory--> <!--This is used to calculate the elevations of the grid squares. -->
+<DEMminFileName>Map_MinDem_Aire_at_Kildwick_Bridge.asc</DEMminFileName> <!--This is used to calculate the location and elevations of the river channels. If it is not available the mean dem.-->
 <VegMap>Map_LandCover_Aire_at_Kildwick_Bridge.asc</VegMap> <!--Vegetation/land-use map. The number of categories must correspond to those in Vegetation details.-->
 <SoilMap>Map_SoilCateogory_Aire_at_Kildwick_Bridge.asc</SoilMap> <!--Soil category map. The number of categories must correspond to those in Soil details.-->
 <LakeMap>Map_Lake_Aire_at_Kildwick_Bridge.asc</LakeMap> <!--Lake map. The value 1 is needed for a lake. River Strickler coefficients are reduced if there is a lake present.-->
 <PrecipMap>Map_RainDist_Aire_at_Kildwick_Bridge.asc</PrecipMap> <!--Spatial distibution of precipitation stations.-->
-<PeMap>Map_PETDist_Aire_at_Kildwick_Bridge.asc</PeMap> <!--Spatial distibution of PE stations-->
+<PeMap>Map_PETDist_Aire_at_Kildwick_Bridge.asc</PeMap> <!--Spatial distribution of PE stations-->
 
 <!--Component Execution. The default is that these are turned off-->
 <Sediment>True</Sediment>
@@ -63,7 +63,7 @@
 
 
 <!--Meteorological Data. This is assumed to correspond to the start date if MeteorologicalDataIncludeDate is False-->
-<MeteorologicalDataIncludeDate>True</MeteorologicalDataIncludeDate> <!--Does the precipitation and potential evaporation data includes a first column ocntaining dates?-->
+<MeteorologicalDataIncludeDate>True</MeteorologicalDataIncludeDate> <!--Does the precipitation and potential evaporation data includes a first column containing dates?-->
 <PrecipitationTimeSeriesData>TimeSeries_Rain_Aire_at_Kildwick_Bridge.csv</PrecipitationTimeSeriesData> <!--Precipitation time series. Units are in mm in the timestep length in PrecipitationTimeStep. In this case mm/day -->
 <PrecipitationTimeStep>24</PrecipitationTimeStep>  <!--Timestep in hours-->
 <EvaporationTimeSeriesData>TimeSeries_PET_Aire_at_Kildwick_Bridge.csv</EvaporationTimeSeriesData> <!--PE  time series. Units are in mm in the timestep length in EvaporationTimeStep. In this case mmm/day -->
@@ -81,25 +81,25 @@
 
 <!--Model Timesteps-->
 <MaxRainfallTimestep>0.2</MaxRainfallTimestep> <!--This is the maximum precipitation (mm) allowed in a timestep. The timestep is reduced if this value is exceeded. The default value is 0.5.-->
-<RegularTimestep>2.0</RegularTimestep> <!--This is the standard Shetran timestep it is autmatically reduced in rain. The standard value is 1 hour. The maximum allowed value is 2 hours.-->
+<RegularTimestep>2.0</RegularTimestep> <!--This is the standard Shetran timestep it is automatically reduced in rain. The standard value is 1 hour. The maximum allowed value is 2 hours.-->
 <IncreasingTimestep>0.15</IncreasingTimestep> <!--Speed of increase in timestep after rainfall back to the standard timestep. The standard value is 0.05. If if there are numerical problems with error 1060 it can be reduced to 0.01 but the simulation will take longer.-->
 <SimulatedDischargeTimestep>1.0</SimulatedDischargeTimestep> <!--This should be the same as the measured discharge and is the timestep used for the simulated discharge at the outlet. Usual either 1 hour or 24 hours (the default is 24 hours).-->
 
 <!--Snow Melt-->
 <SnowmeltDegreeDayFactor>0.0002</SnowmeltDegreeDayFactor> <!--Units  = mm s-1 C-1-->
 <MaxTempTimeSeriesData>TimeSeries_MaxTemp_Aire_at_Kildwick_Bridge.csv</MaxTempTimeSeriesData> <!--Maximum Temperature time series only needed for snow melt. Spatial distribution and timestep is the same as for PE. -->
-<MinTempTimeSeriesData>TimeSeries_MinTemp_Aire_at_Kildwick_Bridge.csv</MinTempTimeSeriesData> <!--Minimum Temperature time series only needed for snow melt. Spatial distribution and timestep is the same as for PE. Average temperature for snow melt caculated from the mean of min and max. -->
+<MinTempTimeSeriesData>TimeSeries_MinTemp_Aire_at_Kildwick_Bridge.csv</MinTempTimeSeriesData> <!--Minimum Temperature time series only needed for snow melt. Spatial distribution and timestep is the same as for PE. Average temperature for snow melt calculated from the mean of min and max. -->
 
 <!--Output to HDF(H5) File Timesteps-->
-<StandardH5Output>12</StandardH5Output> <!--This is the standard timestep in hours for point output to the HDF (H5) file. This is for water table depth (phreatic surfacee), precipitation, river depths and flows etc. 24 hours (or daily) is the default value.-->
-<ThreeDimensionalH5Output>168</ThreeDimensionalH5Output> <!--This is the timestep in hours for 3D output to the HDF (H5) file. This is for soil moistures. 730 hours (or approx montly) is the default value. Beware that small values can make the file extreamly large.-->
+<StandardH5Output>12</StandardH5Output> <!--This is the standard timestep in hours for point output to the HDF (H5) file. This is for water table depth (phreatic surface), precipitation, river depths and flows etc. 24 hours (or daily) is the default value.-->
+<ThreeDimensionalH5Output>168</ThreeDimensionalH5Output> <!--This is the timestep in hours for 3D output to the HDF (H5) file. This is for soil moistures. 730 hours (or approximately montly) is the default value. Beware that small values can make the file extremely large.-->
 
 <!--Boundary Conditions.-->
-<BaseFlowBoundary>Colummn Category(corresponds to SoilMap), Flow through the base of the catchment (m3/s) </BaseFlowBoundary> <!--Missing categories are set to zero.-->
-<BaseFlowBoundary>1, 0.00000001</BaseFlowBoundary> <!-- Negative is flow out, positive is flow in. -->
-<BaseFlowBoundary>2, 0.00000001</BaseFlowBoundary> 
-<BaseFlowBoundary>3, 0.00000001</BaseFlowBoundary> 
-<BaseFlowBoundary>4, 0.00000005</BaseFlowBoundary> 
+<BaseFlowBoundary>Colummn Category(corresponds to SoilMap), Flow through the base of the catchment (mm/day) </BaseFlowBoundary> <!--Missing categories are set to zero.-->
+<BaseFlowBoundary>1, 0.1</BaseFlowBoundary> <!-- Negative is flow out, positive is flow in. -->
+<BaseFlowBoundary>2, 0.1</BaseFlowBoundary> 
+<BaseFlowBoundary>3, 0.1</BaseFlowBoundary> 
+<BaseFlowBoundary>4, 0.4</BaseFlowBoundary> 
 
 <!--Extra Discharge Points Output-->
 <ExtraDischargePoints>105</ExtraDischargePoints> <!--These extra discharge points will be included in the output_CATCHNAME_discharge_sim_regulartimestep.csv file. If they are not on a channel number (see input_CATCHNAME_river_location.txt) they will be ignored. If the RiverGridSquaresAccumulated is changed the channel numbering is changed.-->

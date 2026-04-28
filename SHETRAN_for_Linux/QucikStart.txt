@@ -1,3 +1,4 @@
-1) In terminal (or console) change (cd) to the SHETRAN folder 
-2) run SHETRAN-Prepare  (e.g ./SHETRAN-Prepare.exe ../Examples/Aire_at_Kildwick_Bridge-simple/Aire_at_Kildwick_BridgeLibraryFile_simple.xml)
-3) run SHETRAN (e.g ./SHETRAN.exe -f ../Examples/Aire_at_Kildwick_Bridge-simple/rundata_Aire_at_Kildwick_Bridge.txt)
+1) In terminal (or console) change to the SHETRAN folder (e.g. cd /home/USERNAME/Documents/SHETRAN_for_Linux/SHETRAN)
+2) Allow SHETRAN-Prepare and SHETRAN-Linux to be executable (e.g chmod +x S*)
+2) run SHETRAN-Prepare  (e.g ./SHETRAN-Prepare ../Examples/Aire_at_Kildwick_Bridge-simple/Aire_at_Kildwick_BridgeLibraryFile_simple.xml)
+3) run SHETRAN (e.g ./SHETRAN-Linux -f ../Examples/Aire_at_Kildwick_Bridge-simple/rundata_Aire_at_Kildwick_Bridge.txt)
