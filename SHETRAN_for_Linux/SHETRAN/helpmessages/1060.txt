@@ -1,4 +1,16 @@
-1060  F  OCFIX  980729
+Errro 1060 overland/channel flow criteria could not be met
+
+This is quite a common error message. The usual cause is due to numerical
+instabilities at river channel (links) junctions. The normal issue issue is
+caused by backwater flow from a main channel up a smaller side channel.
+
+Try reducing the model timesteps or reducing the number of river channels 
+(increasing the value in RiverGridSquaresAccumulated tag if using the XML file).
+Increasing the minimum drop between channels (<MinimumDropBetweenChannels> tag if using 
+the XML file) sometimes helps.
+
+
+Details for model developers are below:
 	Subroutine OCFIX attempts to adjust the surface water depths and
 	flow rates returned by the linear solver, in order to impose
 	certain criteria (eg non-negative depth) required elsewhere in

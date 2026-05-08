@@ -1,5 +1,13 @@
 # Changelog
 
+**SHETRAN Updates May 2026**
+
+**Code Improvements**
+
+- add percentage completion and other improved output to command prompt during simulation
+- improved error messages and their output to the command prompt and pri file
+- add -error option to command prompt options
+
 **SHETRAN Updates April 2026**
 
 **Code Improvements**

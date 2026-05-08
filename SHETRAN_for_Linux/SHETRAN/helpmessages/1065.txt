@@ -1,0 +1,10 @@
+Error 1065  There is no data in the meteorolgical data (med) file. 
+
+The med file is used instead of the precipitation and potential evaporation file when full meteorological data is available.
+It is not often used. Check you want to use this file format
+
+If you want to use this file format and get this error message it probably because the location 
+specified in the rundata file is different from the actual location or because the name of the file
+is different from the one specified in the rundata file.
+
+Shetran will have created an file med with nothing in it where it was expecting the file.

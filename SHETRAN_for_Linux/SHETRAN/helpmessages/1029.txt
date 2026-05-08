@@ -1,0 +1,14 @@
+Error 1029  Channel flows exceed maximum allowed
+
+The simulated flow has exceeded the maximum allowed flow.
+The maximum allowed flow (QMAX) is set in FR21 (see section 2.2 of the SHETRAN user guide). 
+The default value is 99999 m3/s and this should only be possible for an exceptionally large catchment
+
+There are two main reasons why this error is produced.
+1) Numerical instability. 
+These usually occur at river channel (links in SHETRAN) junctions. 
+Try reducing the model timesteps or reducing the number of river channels 
+(increasing the value in RiverGridSquaresAccumulated tagif using the XML file)
+
+2) Errors in the precipitation data. 
+If an unphysically value is used (more than 1000mm in a day and 200mm in an hour is extreamly unlikely)

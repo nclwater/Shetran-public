@@ -1,0 +1,12 @@
+Error 1066  There is no data in the air temperature (high) file. 
+
+The air temperature (high) file is only used if the snow melt component is turned on.
+
+If you do not want to use the snow melt component (<Snow> flag if using the xml file and FR25 in SHETRAN standard version)
+then turn it off and the error should go.
+
+If you want to use the snow melt component then the error s probably because the location specified
+in the rundata file is different from the actual location or because the name of the file is different
+from the one specified in the rundata file.
+
+Shetran will have created a temperature file with nothing in it where it was expecting the file.

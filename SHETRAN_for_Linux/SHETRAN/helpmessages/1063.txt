@@ -1,0 +1,6 @@
+Error 1063  There is no data in the precipitation (prd) file. 
+
+This is probably because the location specified in the rundata file is different from the actual location
+or because the name of the file is different from the one specified in the rundata file.
+
+Shetran will have created a prd file with nothing in it where it was expecting the file.

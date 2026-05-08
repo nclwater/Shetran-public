@@ -1,0 +1,6 @@
+Error 1064  There is no data in the potential evaporation (epd) file. 
+
+This is probably because the location specified in the rundata file is different from the actual location
+or because the name of the file is different from the one specified in the rundata file.
+
+Shetran will have created an epd file with nothing in it where it was expecting the file.
