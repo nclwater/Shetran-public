@@ -1,3 +1,5 @@
 1) In File Explorer go into the SHETRAN folder
 2) Double click on start.exe
 3) Select the file "Aire_at_Kildwick_BridgeLibraryFile_simple.xml" from the Examples/Aire_at_Kildwick_Bridge-simple folder
+4) In the Aire_at_Kildwick_Bridge-simple folder the file "output_Aire_at_Kildwick_Bridge_discharge_sim_regulartimestep.csv" has the simulated outlet discharge for this catchment
+5) To visualise output, download the SHETRAN results viewer (https://github.com/nclwater/shetran-results-viewer/releases/tag/v1.7.2). Unzip locally (not to OneDrive), double click on "SHETran-Results-Viewer-v1.7.2.exe" and select the file "Aire_at_Kildwick_BridgeLibraryFile_simple.xml" from the Examples/Aire_at_Kildwick_Bridge-simple folder
