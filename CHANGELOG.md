@@ -1,6 +1,26 @@
 # Changelog
 
-**SHETRAN Updates May 2026**
+- SHETRAN public version numbers correspond with SHETRAN source code version numbers
+
+**SHETRAN Updates V4.7.5 Oct 2026**
+
+**Code Improvements**
+
+- Setup of CMake build system.
+- Setup two build scripts for Windows and Linux, which also support program testing and documentation generation.
+- Supports GFortran builds under Linux (only tested with v16.1 or newer).
+- Refactored code to Fortran 2018 standard.
+- Refactored to remove all GOTOs.
+- Shetran is now OS aware for path handling by utilising the Fortran Standard Library.
+- Updated the HDF5 library to v1.14.6.
+- Improved in-code documentation.
+
+**User Interface**
+
+- The libraries are now "included" in the generated executable. So no dll files needed
+
+
+**SHETRAN Updates V4.6.4 May 2026**
 
 **Code Improvements**
 
